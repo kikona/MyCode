@@ -58,3 +58,5 @@
             - 输出位置：sys.stderr
             - 级别：WARNING
             - 格式：level:log_name:content
+- 案例 01
+
