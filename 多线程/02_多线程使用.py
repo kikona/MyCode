@@ -2,6 +2,7 @@
 利用time函数，生成两个函数
 计算总的运行时间
 '''
+
 import time
 import _thread as thread
 
