@@ -3,6 +3,7 @@
 顺序调用
 计算总的运行时间
 '''
+
 import time
 
 def loop1():
