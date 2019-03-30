@@ -113,4 +113,5 @@
 - 进程间通讯(InterprocessCommunication, IPC)
 - 进程之间无任何共享状态
 - 进程的创建
-    - 案例19
+    - 直接生产Process实例对象，案例19
+    - 派生子类，案例20
