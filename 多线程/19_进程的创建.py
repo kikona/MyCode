@@ -11,3 +11,7 @@ def clock(interval):
 if __name__ == "__main__":
     p = multiprocessing.Process(target = clock, args = (5,))
     p.start()
+
+    while True:
+        print("sleep......")
+        sleep(1)
