@@ -13,4 +13,13 @@ class ClockProcess(multiprocessing.Process):
 
     def run(self):
         print("The time is %s" % ctime())
-        sleep(interval)
+        sleep(self.interval)
+
+
+if __name__ == "__main__":
+    p = ClockProcess(3)
+    p.start()
+
+    while True:
+        print("sleep......")
+        sleep(1)
