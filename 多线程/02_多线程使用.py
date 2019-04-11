@@ -34,5 +34,5 @@ def main():
 
 if __name__ == '__main__':
     main()
-    while True:             #等待loop，loop2完成，如果不等待则不知道是否完成
+    while True:             #等待loop，loop2完成，如果不等待主线程结束，子线程也会跟着结束，则不知道是否完成
         time.sleep(1)       #每1s醒来一次，查看是否完成
